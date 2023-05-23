@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: linear-gradient(to right, #6495ed 70%, #ff69b4);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: #ff69b4;
+}
+nav .logo {
+  width: 300px;
+  height: 70px;
+  font-size: 65px;
+  padding-left: 10px;
+}
+nav ul {
+  display: flex;
+  padding: 30px;
+  list-style: none;
+}
+nav ul li {
+  padding-right: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+nav ul li a:hover {
+  border-bottom: 4px solid #000080;
+  transition: 0.2s;
+}
+.title {
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  font-size: 50px;
+  color: #f4f4f4;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 20px 40px rgba(0, 0, 0, 0.3);
+}
+.title p {
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+button {
+  background: #000080;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
